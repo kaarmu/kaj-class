@@ -1,0 +1,93 @@
+\documentclass[Swedish,long,twocolumn]{KajsClass}
+
+\title{Kaj's Class}
+\subtitle{Den enda klassen.}
+\author{Kaj Munhoz Arfvidsson}
+\date{2019}
+
+% -- Packages --
+
+% -- -- --
+
+\begin{document}
+
+\maketitle
+
+\begin{overview}
+    \section*{Abstract}
+    \blindtext
+\end{overview}
+
+\section{Introduktion}
+Detta dokument framför de olika funktioner och inställningar som för närvarande upprätthålls av Kaj's Class. Klassen söker att samla de vanligt återanvända paketen, centralisera skrivandet av alla dokumenttyper och bilda en personlig stil. Även många mindre hjälpmedel konstrueras för att skrivprocessen ska bli snabbare, enklare och renare. Detta dokument följer den reguljära dokumentstilen \textit{Small}.
+
+\segline
+\section{Small}\label{sec:Small}
+Small är en dokumenttyp som passar sig för korta dokument med högst ett par författare ($\textit{antal sidor} < 10$). Det som mest karaktäriserar Small är den koncisa rubrik delen. Anmärkningsvärt fungerar denna dynamisk efter vilka informationer som skribenten vill teckna. Detta segment kan innehålla som mest
+
+\begin{minipage}{\textwidth}
+\begin{quote}\begin{verbatim}
+\title{Kaj's Class}
+\subtitle{Den enda klassen.}
+\author{Kaj Munhoz Arfvidsson}
+\date{2019}
+\end{verbatim}\end{quote}\end{minipage}
+
+Skulle någon av dessa utlämnas, ger det inga konsekvenser då klassen flyttar relevanta objekt för att anpassa utseendet. 
+
+Något man bör vara försiktig med är \verb|\author| vilken inte klarar att skriva flerradig text på godtagbart sätt. Detta gör att författarna i en tvåmannaskriven text (Small bör inte användas om fler författare) måste vara vaksamma ifall deras namn är långa. Två långa namn tillsammans med ett fullt datum format löper risk att överskriva \verb|\subtitle| som ofta också är något lång.
+
+\segline
+\section{DnD}\label{sec:DnD}
+\blindtext
+    
+\segline
+\section{Kommandon}\label{sec:Commands}
+Klassen medför också några kommandon för att förenkla arbetet. 
+
+    
+\segline
+\section{Included packages}\label{sec:Packages}
+\blindtext
+\newpage
+\begin{itemize}
+        \item Algorithm2e
+        \item Algorithmicx
+        \item \AmS-Fonts
+        \item \AmS-Symb
+        \item \AmS-Math
+        \item \AmS-Thm
+        \item Appendix
+        \item Babel
+        \item Biblatex
+        \item Caption
+        \item Color
+        \item EB Garamond
+        \item eToolbox
+        \item FancyHDR
+        \item FontSpec
+        \item Geometry
+        \item Graphicx
+        \item Hyperref
+        \item Ifthen
+        \item Inputenc
+        \item Listings
+        \item Microtype
+        \item Multicol
+        \item Multirow
+        \item Parskip
+        \item PDFPages
+        \item pgfPlots
+        \begin{itemize}
+            \item TikZ: calc
+            \item TikZ: intersection
+        \end{itemize}
+        \item CircuiTikZ
+        \item SIUnitx
+        \item SVG
+        \item TitleSec
+        \item Wrapfig
+        \item xColor
+    \end{itemize}
+
+\end{document}
